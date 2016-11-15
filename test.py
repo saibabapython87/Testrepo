@@ -9,31 +9,31 @@ for val in video_data:
 	    null_obj = None
 	    print "Video content for 2016 if null : ",obj_final.update(null_obj)
 	else:
-	    print "Video content for 2016 : ",vals
+	    print "Video content for 2016 : ",val
     elif val['year'] == 2017:
 	if val.values() == '':
 	    null_obj = None
 	    print "Video content for 2017 if null : ",obj_final.update(null_obj)
 	else:
-	    print "Video content for 2017 : ",vals
+	    print "Video content for 2017 : ",val
     elif val['year'] == 2018:
 	if val.values() == '':
 	    null_obj = None
 	    print "Video content for 2018 if null : ",obj_final.update(null_obj)
 	else:
-	    print "Video content for 2018 : ",vals
+	    print "Video content for 2018 : ",val
     if val['year'] == 2019:
 	if val.values() == '':
 	    null_obj = None
 	    print "Video content for 2019 if null : ",obj_final.update(null_obj)
 	else:
-	    print "Video content for 2019 : ",vals
+	    print "Video content for 2019 : ",val
     if val['year'] == 2020:
 	if val.values() == '':
 	    null_obj = None
 	    print "Video content for 2020 if null : ",obj_final.update(null_obj)
 	else:
-	    print "Video content for 2020 : ",vals
+	    print "Video content for 2020 : ",val
     else:
         print "You entered year data is not vailable"
 
